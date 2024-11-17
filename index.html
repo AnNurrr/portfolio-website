@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first web page Portfolio!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <header>
+      <nav>
+        <ul class="menu-bar">
+          <li><a href="home">Home</a></li>
+          <li><a href="projects">Projects</a></li>
+          <li><a href="skills">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <div class="left-content">
+        <img src="images/anur.JPG" alt="Ainur's Photo" class="profile-photo" />
+        <div class="text-content">
+          <h1>Hey, I'm Ainur</h1>
+          <p class="subtitle">Software Engineer Student</p>
+          <p class="bio">
+            I'm a senior student who loves going on adventures, taking photos,
+            learning new things, and spending time by helping out.
+          </p>
+          <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I’ve worked on:</p>
+
+      <video width="600" controls>
+        <source src="<iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yH82-yUl9kQ?si=0AJgBz6oIgC8KgLh"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe
+        >" type="video/mp4" /> Your browser does not support the video tag.
+      </video>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Project Image</th>
+            <th>Project Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="project1_icon.jpg" alt="Project 1 Picture" /></td>
+            <td>Interview Management System</td>
+            <td>
+              A system to organize candidate information, schedule interviews,
+              and collect feedback from interviewers. Designed to simplify HR
+              processes.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="project2_icon.jpg" alt="Project 2 Picture" /></td>
+            <td>Project Tracking App</td>
+            <td>
+              An app for tracking projects and tasks, designed for project
+              managers and team members to monitor progress and deadlines
+              effectively.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="project3_icon.jpg" alt="Project 3 Picture" /></td>
+            <td>Biking App</td>
+            <td>
+              A mobile application to discover new biking trails, track routes,
+              and connect with fellow biking enthusiasts.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
